@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  line-height: 1.5;
+  color: #6b7280;
+}
+
+.faq-section {
+  inline-size: 90vw;
+  max-inline-size: 600px;
+  margin-inline: auto;
+  padding-block: 3rem;
+}
+
+.accordion {
+  cursor: pointer;
+  padding-block: 1rem;
+  border-block-end: 1px solid #6b7280;
+}
+
+.accordion__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion__title {
+  color: #030712;
+}
+
+.accordion__content {
+  margin-block-start: 1em;
+}
+
+.icon {
+  color: #ef4444;
+}
